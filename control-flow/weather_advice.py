@@ -1,4 +1,4 @@
-Weather = input(f"What's the waeather like today? (sunny/rainy/cold): " )
+Weather = input(f"What's the weather like today? (sunny/rainy/cold): " )
 if Weather == "sunny":
     print(f"Wear a T-shirt and sunglasses.")
 elif Weather == "rainy":
