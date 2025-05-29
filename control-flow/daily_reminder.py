@@ -4,6 +4,7 @@ Time_bound = str(input("Is it time-bound? (yes/no): "))
 
 #  match priority:
        # case "high":
+       # if time_bound == "yes":
           
 match priority.lower() and Time_bound.lower():
     case "high" | "medium" | "low":
