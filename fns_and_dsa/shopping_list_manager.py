@@ -3,7 +3,8 @@ def display_menu():
     print("1. Add Item")
     print("2. Remove Item")
     print("3. View List")
-    print("4. Exit")
+    print("4. Clear List")
+    print("5. Exit")
     print("Please choose an option between (1-4)")
 
 def main():
@@ -32,8 +33,11 @@ def main():
                 print("\nYour Shopping List:")
                 for idx, item in enumerate(shopping_list, start=1):
                     print(f"{idx}. {item}")
-
         elif choice == '4':
+            shopping_list.clear()
+            print("Your shopping list has been cleared.")
+
+        elif choice == '5':
             print("Goodbye!")
             break
 
