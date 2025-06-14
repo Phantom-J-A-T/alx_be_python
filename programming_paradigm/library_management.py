@@ -17,7 +17,7 @@ class Library:
         if book in self._books:
             self._books.remove(book)
 
-    def list_books(self):
+    def list_available_books(self):
         return [f"{book.title} by {book.author}" for book in self.books]
 
     def check_out_book(self, book):
