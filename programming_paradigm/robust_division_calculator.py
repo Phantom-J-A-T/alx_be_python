@@ -1,6 +1,6 @@
 def safe_divide(numerator, denominator):
    try:
-       result = numerator / denominator
+       result = float(numerator) / float(denominator)
        return result
    except ValueError:
         return "Error: Invalid input, please provide numbers."
